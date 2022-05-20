@@ -1,13 +1,10 @@
 {
   "thumb": "about.jpg",
-  "bio": "There are many variations of passages of Lorem available, but the lteration in some form, by injected humour lebmid ipsum by injected humour lebmid. There are many variations of passages of Lorem, but the majority have suffered lebmid by injected.",
-  "skype": "jonathon.haris111",
-  "availability": true,
+  "bio": "I’m Ashley, a Graphic Designer turned Software Engineer. As I see the world is evolving away from static images and paper packaging, I decided to pursue a major career pivot to Software Engineering. I'm currently seeking my first development role in New York City or remote opportunities.",
+  "github": "ashleynd",
+  "availability": false,
   "languages": [
-    "English",
-    "Hindi",
-    "Bengali",
-    "Telegu"
+    "English"
   ],
   "skills": [
     {

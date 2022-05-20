@@ -15,16 +15,16 @@ const Contact = () => {
                             <Row>
                                 <Col lg={10} className={'mb-45'}>
                                     <div className="contact-form">
-                                        <h3>CONTACT FORM</h3>
+                                        <h3>LET'S CHAT!</h3>
                                         <Form/>
                                     </div>
                                 </Col>
 
                                 <Col lg={10}>
                                     <QuickContact
-                                        phone={'+012456879'}
-                                        email={'hello@example.com'}
-                                        location={'2020 Willshire Glen, Alpharetta, GA-30009'}
+                                        phone={'+1 (616) 401-7489'}
+                                        email={'ashleyndragan@gmail.com'}
+                                        location={'New York, NY, USA'}
                                     />
                                 </Col>
                             </Row>
@@ -33,8 +33,8 @@ const Contact = () => {
                         <Col lg={6}>
                             <Map
                                 text={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid'}
-                                lat={40.6971494}
-                                long={-74.2598661}
+                                lat={40.75600478554772}
+                                long={-73.97696930993376}
                             />
                         </Col>
                     </Row>

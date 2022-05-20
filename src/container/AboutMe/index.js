@@ -19,12 +19,11 @@ const AboutMe = ({type}) => {
                             {type !== 'page' ? (<h3 className="block-title">ABOUT ME</h3>) : null}
                             <p>{aboutData.bio}</p>
                             <ul className="personal-info">
-                                <li><span>Skype:</span>{aboutData.skype}</li>
-                                <li><span>Freelance:</span>{aboutData.availability ? 'Available' : 'Not Available'}</li>
+                                <li><span>Github:</span>ashleynd</li>
                                 <li>
                                     <span>Language:</span>
                                     {aboutData.languages.map((language, index) => (
-                                        <p key={index} style={{display: 'inline-block'}}>{`${language},  `}</p>
+                                        <p key={index} style={{display: 'inline-block'}}>{`${language}  `}</p>
                                     ))}
                                 </li>
                             </ul>

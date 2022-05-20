@@ -6,7 +6,7 @@ const Map = ({text, lat, long}) => {
             <div className="col-lg-10 col-12 mb-45">
                 <div className="contact-availability">
                     <h3>24/7 ANYTIME</h3>
-                    <p>{text}</p>
+                    <p>Where in the world should you be able to find me?</p>
                 </div>
             </div>
             <div className="col-lg-10 col-12">
