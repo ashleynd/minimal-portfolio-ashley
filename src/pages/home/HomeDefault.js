@@ -20,7 +20,7 @@ const HomeDefault = () => {
     return (
         <div className={'main-wrapper'}>
             <Header/>
-            <h1>Hello World!</h1>
+            <h1>Development Projects</h1>
             <SideHeader mobile={true}/>
             <PortfolioDefault ref={slider} limit={5}/>
             <Footer prev={SlidePrev} next={SlideNext}/>

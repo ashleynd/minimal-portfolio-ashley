@@ -20,7 +20,7 @@ const HeaderSocial = () => {
             {socialIcons.map(social => (
                 <a key={social?.id}
                 // eslint-disable-next-line
-                   href="https://www.google.com/"
+                   href="https://www.linkedin.com/in/ashleyndragan/"
                    target="_blank"
                    rel="noopener noreferrer"
                 >
