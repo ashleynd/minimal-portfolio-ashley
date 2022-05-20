@@ -20,11 +20,12 @@
     08. Sidebar CSS
     09. Comment CSS
     10. Credential CSS
-    11. Contact CSS
-    12. 404 CSS
-    13. Footer CSS
-    14. Dark Version CSS
-    15. Color Variation CSS
+    11. Graphic Design CSS
+    12. Contact CSS
+    13. 404 CSS
+    14. Footer CSS
+    15. Dark Version CSS
+    16. Color Variation CSS
 
 -----------------------------------------------------------------------------------*/
 @import 'variabls';
@@ -38,6 +39,7 @@
 @import 'sidebar';
 @import 'comment';
 @import 'credential';
+@import 'graphicdesign';
 @import 'contact';
 @import 'error-404';
 @import 'testimonial';

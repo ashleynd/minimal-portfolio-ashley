@@ -301,6 +301,22 @@
       }
     }
   }
+  // Graphic Design Style
+  & .graphicdesign-inner {
+    & .graphicdesign-content {
+      background-color: $heading-color;
+
+      & .graphicdesign-social {
+        & a {
+          color: $white;
+
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
 
   // portfolios Style
   & .portfolio-item {

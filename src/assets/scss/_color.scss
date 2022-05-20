@@ -208,6 +208,29 @@
             }
         }
     }
+    // Graphic Design Style
+    & .graphicdesign-inner {
+        & .graphicdesign-content {
+            & span {
+                border-color: $theme-color-1;
+            }
+            & .graphicdesign-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .graphicdesign-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
     
     // Blog Style
     & .blog-item {
@@ -603,6 +626,30 @@
 
         &:hover {
             & .credential-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    
+    // Graphic Design Style
+    & .graphicdesign-inner {
+        & .graphicdesign-content {
+            & span {
+                border-color: $theme-color-2;
+            }
+            & .graphicdesign-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .graphicdesign-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;
@@ -1010,6 +1057,29 @@
             }
         }
     }
+    // Graphic Design Style
+    & .graphicdesign-inner {
+        & .graphicdesign-content {
+            & span {
+                border-color: $theme-color-3;
+            }
+            & .graphicdesign-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .graphicdesign-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
     
     // Blog Style
     & .blog-item {
@@ -1405,6 +1475,30 @@
 
         &:hover {
             & .credential-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    // Graphic Design Style
+    & .graphicdesign-inner {
+        & .graphicdesign-content {
+            & span {
+                border-color: $theme-color-4;
+            }
+            & .graphicdesign-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .graphicdesign-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;
