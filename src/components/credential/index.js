@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Team = ({name, designation, profilePhoto, socials}) => {
+const Credential = ({name, designation, profilePhoto, socials}) => {
     return (
-        <div className="team-item">
-            <div className="team-inner">
-                <img src={require('../../assets/images/team/' + profilePhoto)} alt={name}/>
-                <div className="team-content">
+        <div className="credential-item">
+            <div className="credential-inner">
+                <img src={require('../../assets/images/credential/' + profilePhoto)} alt={name}/>
+                <div className="credential-content">
                     <h4>{name}</h4>
                     <span>{designation}</span>
-                    <div className="team-social">
+                    <div className="credential-social">
                         {socials.map(icon => (
                             <a key={icon.id}
                                href={`https://${icon.media}.com/${icon.username}`}
@@ -25,4 +25,4 @@ const Team = ({name, designation, profilePhoto, socials}) => {
     );
 };
 
-export default Team;
+export default Credential;

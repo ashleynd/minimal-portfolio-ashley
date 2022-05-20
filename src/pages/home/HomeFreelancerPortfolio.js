@@ -7,7 +7,7 @@ import BannerFreelancerPortfolio from "../../components/HeroBanner/FreelancerPor
 import AboutMe from "../../container/AboutMe";
 import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import PersonalPortfolioService from "../../container/service";
-import PersonalPortfolioTeam from "../../container/team";
+import PersonalPortfolioCredential from "../../container/credential";
 import Contact from "../../container/contact";
 import Footer from "../../components/footer/FooterThree";
 
@@ -20,7 +20,7 @@ const HomeFreelancerPortfolio = () => {
             <AboutMe/>
             <PersonalPortfolio/>
             <PersonalPortfolioService/>
-            <PersonalPortfolioTeam/>
+            <PersonalPortfolioCredential/>
             <Contact/>
             <Footer position={'static'}/>
         </div>

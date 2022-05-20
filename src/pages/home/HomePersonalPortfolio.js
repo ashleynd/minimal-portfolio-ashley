@@ -5,7 +5,7 @@ import Contact from "../../container/contact";
 import SideHeader from "../../components/SideHeader";
 import Header from "../../components/header/HeaderOne";
 import Footer from "../../components/footer/FooterThree";
-import PersonalPortfolioTeam from "../../container/team";
+import PersonalPortfolioCredential from "../../container/credential";
 import PersonalPortfolioService from "../../container/service";
 import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import BannerPersonalPortfolio from "../../components/HeroBanner/PersonalPortfolio";
@@ -18,7 +18,7 @@ const HomePersonalPortfolio = () => {
             <BannerPersonalPortfolio/>
             <PersonalPortfolio/>
             <PersonalPortfolioService/>
-            <PersonalPortfolioTeam/>
+            <PersonalPortfolioCredential/>
             <Contact/>
             <Footer position={'static'}/>
         </div>

@@ -9,7 +9,7 @@ import {
 /*
 * @ Component Imported
 * */
-import TeamPage from "./pages/team";
+import CredentialPage from "./pages/credential";
 import AboutPage from "./pages/about";
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
@@ -47,8 +47,8 @@ const App = () => {
                 <Routes>
                     <Route path={`${process.env.PUBLIC_URL + "/contact"}`}
                            element={<ContactPage/>}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/team"}`}
-                           element={<TeamPage/>}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/credential"}`}
+                           element={<CredentialPage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/service"}`}
                            element={<ServicePage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog/:slug"}`}

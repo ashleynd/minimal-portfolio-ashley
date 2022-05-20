@@ -1,35 +1,35 @@
 import React, {Fragment, useState} from 'react';
 import Header from "../../components/header/HeaderOne";
 import SideHeader from "../../components/SideHeader";
-import TemplateTeamPage from "../../templates/team";
+import TemplateCredentialPage from "../../templates/credential";
 import FooterTwo from "../../components/footer/FooterTwo";
 
-import teamMembers from '../../data/team';
+import credentialMembers from '../../data/credential';
 
-const TeamPage = () => {
-    const [teamPerPage, setTeamPerPage] = useState(3);
+const CredentialPage = () => {
+    const [credentialPerPage, setCredentialPerPage] = useState(3);
     const [loading, setLoading] = useState(false);
-    const teams = teamMembers.slice(0, teamPerPage);
+    const credentials = credentialMembers.slice(0, credentialPerPage);
 
     const loadMore = () => {
         setLoading(true);
         setTimeout(() => {
-            setTeamPerPage(teamPerPage + 3);
+            setCredentialPerPage(credentialPerPage + 3);
             setLoading(false);
         }, 200);
     };
 
-    const allItems = teamPerPage >= teamMembers.length;
+    const allItems = credentialPerPage >= credentialMembers.length;
 
 
     return (
         <Fragment>
             <Header classes={'position-static'}/>
             <SideHeader mobile={true}/>
-            <TemplateTeamPage teams={teams} loading={loading}/>
+            <TemplateCredentialPage credentials={credentials} loading={loading}/>
             <FooterTwo loadHandler={loadMore} allItems={allItems} />
         </Fragment>
     );
 };
 
-export default TeamPage;
+export default CredentialPage;

@@ -185,13 +185,13 @@
         }
     }
     
-    // Team Style
-    & .team-inner {
-        & .team-content {
+    // Credential Style
+    & .credential-inner {
+        & .credential-content {
             & span {
                 border-color: $theme-color-1;
             }
-            & .team-social {
+            & .credential-social {
                 & a {
                     &:hover {
                         color: $theme-color-1;
@@ -201,7 +201,7 @@
         }
 
         &:hover {
-            & .team-content {
+            & .credential-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;
@@ -586,13 +586,13 @@
         }
     }
     
-    // Team Style
-    & .team-inner {
-        & .team-content {
+    // Credential Style
+    & .credential-inner {
+        & .credential-content {
             & span {
                 border-color: $theme-color-2;
             }
-            & .team-social {
+            & .credential-social {
                 & a {
                     &:hover {
                         color: $theme-color-2;
@@ -602,7 +602,7 @@
         }
 
         &:hover {
-            & .team-content {
+            & .credential-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;
@@ -987,13 +987,13 @@
         }
     }
     
-    // Team Style
-    & .team-inner {
-        & .team-content {
+    // Credential Style
+    & .credential-inner {
+        & .credential-content {
             & span {
                 border-color: $theme-color-3;
             }
-            & .team-social {
+            & .credential-social {
                 & a {
                     &:hover {
                         color: $theme-color-3;
@@ -1003,7 +1003,7 @@
         }
 
         &:hover {
-            & .team-content {
+            & .credential-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;
@@ -1388,13 +1388,13 @@
         }
     }
     
-    // Team Style
-    & .team-inner {
-        & .team-content {
+    // Credential Style
+    & .credential-inner {
+        & .credential-content {
             & span {
                 border-color: $theme-color-4;
             }
-            & .team-social {
+            & .credential-social {
                 & a {
                     &:hover {
                         color: $theme-color-4;
@@ -1404,7 +1404,7 @@
         }
 
         &:hover {
-            & .team-content {
+            & .credential-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;

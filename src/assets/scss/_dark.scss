@@ -285,12 +285,12 @@
     }
   }
 
-  // Team Style
-  & .team-inner {
-    & .team-content {
+  // Credential Style
+  & .credential-inner {
+    & .credential-content {
       background-color: $heading-color;
 
-      & .team-social {
+      & .credential-social {
         & a {
           color: $white;
 
