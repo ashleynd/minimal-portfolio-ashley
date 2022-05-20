@@ -10,6 +10,7 @@ import {
 * @ Component Imported
 * */
 import CredentialPage from "./pages/credential";
+import GraphicDesignPage from "./pages/graphicdesign";
 import AboutPage from "./pages/about";
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
@@ -49,6 +50,8 @@ const App = () => {
                            element={<ContactPage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/credential"}`}
                            element={<CredentialPage/>}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/graphicdesign"}`}
+                           element={<GraphicDesignPage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/service"}`}
                            element={<ServicePage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog/:slug"}`}

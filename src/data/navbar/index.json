@@ -15,8 +15,13 @@
       },
       {
         "id": 4.2,
-        "title": "Credentials 🏆",
+        "title": "Credentials",
         "link": "/credential"
+      },
+      {
+        "id": 4.2,
+        "title": "Graphic Design",
+        "link": "/graphicdesign"
       }
     ]
   },
