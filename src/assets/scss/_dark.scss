@@ -317,6 +317,22 @@
       }
     }
   }
+  // UIUX Style
+  & .uiux-inner {
+    & .uiux-content {
+      background-color: $heading-color;
+
+      & .uiux-social {
+        & a {
+          color: $white;
+
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
 
   // portfolios Style
   & .portfolio-item {

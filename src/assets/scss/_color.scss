@@ -231,6 +231,29 @@
             }
         }
     }
+    // UIUX Design Style
+    & .uiux-inner {
+        & .uiux-content {
+            & span {
+                border-color: $theme-color-1;
+            }
+            & .uiux-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .uiux-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
     
     // Blog Style
     & .blog-item {
@@ -650,6 +673,29 @@
 
         &:hover {
             & .graphicdesign-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    // UIUX Design Style
+    & .uiux-inner {
+        & .uiux-content {
+            & span {
+                border-color: $theme-color-2;
+            }
+            & .uiux-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .uiux-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;
@@ -1080,6 +1126,29 @@
             }
         }
     }
+    // Graphic Design Style
+    & .uiux-inner {
+        & .uiux-content {
+            & span {
+                border-color: $theme-color-3;
+            }
+            & .uiux-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .uiux-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
     
     // Blog Style
     & .blog-item {
@@ -1499,6 +1568,29 @@
 
         &:hover {
             & .graphicdesign-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    // Graphic Design Style
+    & .uiux-inner {
+        & .uiux-content {
+            & span {
+                border-color: $theme-color-4;
+            }
+            & .uiux-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .uiux-content {
                 transform: translateY(-50%);
                 opacity: 1;
                 visibility: visible;

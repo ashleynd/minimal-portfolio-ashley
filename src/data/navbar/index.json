@@ -19,7 +19,12 @@
         "link": "/credential"
       },
       {
-        "id": 4.2,
+        "id": 4.3,
+        "title": "UI/UX",
+        "link": "/uiux"
+      },
+      {
+        "id": 4.4,
         "title": "Graphic Design",
         "link": "/graphicdesign"
       }
