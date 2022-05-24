@@ -18,19 +18,15 @@ import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
 import HomeBlog from "./pages/home/HomeBlog";
 import HomeDefault from "./pages/home/HomeDefault";
-import BlogDetailsPage from "./pages/blog/BlogDetails";
 import HomeFiveColumn from './pages/home/HomeFiveColumn';
 import HomeFourColumn from "./pages/home/HomeFourColumn";
-import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
 import HomeThreeColumn from "./pages/home/HomeThreeColumn";
 import PortfolioDetailsPage from "./pages/portfolio/details";
 import HomePersonalPortfolio from "./pages/home/HomePersonalPortfolio";
 import HomeFreelancerPortfolio from "./pages/home/HomeFreelancerPortfolio";
 import PortfolioGridTwoColumnPage from "./pages/portfolio/grid/two-column";
-import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
 import PortfolioGridFourColumnPage from "./pages/portfolio/grid/four-column";
 import PortfolioGridThreeColumnPage from "./pages/portfolio/grid/three-column";
-import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
 import PortfolioMasonryTwoColumnPage from "./pages/portfolio/masonry/two-column";
 import PortfolioMasonryFourColumnPage from "./pages/portfolio/masonry/four-column";
 import PortfolioMasonryThreeColumnPage from "./pages/portfolio/masonry/three-column";
@@ -57,14 +53,6 @@ const App = () => {
                            element={<UIUXPage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/service"}`}
                            element={<ServicePage/>}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/blog/:slug"}`}
-                           element={<BlogDetailsPage/>}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/blog-two-column-left-sidebar"}`}
-                           element={<BlogTwoColumnLeftSidebarPage/>}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/blog-two-column-right-sidebar"}`}
-                           element={<BlogTwoColumnRightSidebarPage/>}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/blog"}`}
-                           element={<BlogThreeColumnPage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio/:slug"}`}
                            element={<PortfolioDetailsPage/>}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-masonry-five-column-fullwidth"}`}

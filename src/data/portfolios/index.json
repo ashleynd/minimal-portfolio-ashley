@@ -3,19 +3,19 @@
 
   {
     "id": 1,
-    "title": "Amazong Amy",
-    "slug": "oil-paint-dog",
-    "category": "Design",
+    "title": "Picslink",
+    "slug": "picslink",
+    "category": "Springboard Capstone I",
     "thumb": "portfolio-1.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Image-sharing website with paths to purchasing options, which allows users to create posts and make edits. A Pinterest-inspired image-sharing community. Built with Python to pull user data for 95 posts from 36 current users stored in a PostgreSQL database. Created interface with Flask, SQLAlchemy, and HTML/CSS because of the flexibility that is offered with Jinja and WTForms. Leveraged Git and GitHub in the Terminal to deploy application with Heroku.",
     "previewImages": [
       "portfolio-1.jpg",
-      "portfolio-2.jpg"
+      "portfolio-1-2.jpg"
     ],
     "meta": {
-      "client": "Jerry Wilson",
-      "date": "01/05/2020",
-      "website": "https://hasthemes.com",
+      "client": "Springboard Software Engineering Career Track",
+      "date": "July 2021",
+      "website": "http://picslink.herokuapp.com/",
       "services": [
         "Design",
         "Branding",
@@ -26,19 +26,19 @@
   },
   {
     "id": 2,
-    "title": "Hardcover Book Cover",
-    "slug": "hardcover-book-cover",
-    "category": "Photography",
+    "title": "Quotable",
+    "slug": "quotable",
+    "category": "Springboard Capstone Project II",
     "thumb": "portfolio-2.jpg",
-    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid",
+    "description": "Quote-sharing site with browsing, searching, favoriting, and posting options. Backend built with Node.js and Express.js. Built with Javascript to call data with SQL queries from my own API and external API: They Said So®. Frontend built with React for its styling flexibility offered with its component-based design and easy testing capability. Leveraged Git and GitHub in the Terminal to deploy site with Surge.",
     "previewImages": [
       "portfolio-2.jpg",
-      "portfolio-2.jpg"
+      "portfolio-2-1.jpg"
     ],
     "meta": {
-      "client": "Raju Wilson",
-      "date": "01/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "Springboard Software Engineering Career Track",
+      "date": "Oct 2021 - Nov 2021",
+      "website": "https://dreary-spy.surge.sh/",
       "services": [
         "Design",
         "Branding",
@@ -49,68 +49,63 @@
   },
   {
     "id": 3,
-    "title": "Flying Macbook",
-    "slug": "flying-macbook",
-    "category": "Markup",
+    "title": "Madlibs",
+    "slug": "madlibs",
+    "category": "React",
     "thumb": "portfolio-3.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Simple React project demonstrating a Madlibs game, deployed with Surge.",
     "previewImages": [
-      "portfolio-3.jpg",
-      "portfolio-2.jpg"
+      "portfolio-3.jpg"
     ],
     "meta": {
-      "client": "Jerry Wilson",
-      "date": "21/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "Springboard React project",
+      "date": "May 2023",
+      "website": "https://happy-crime.surge.sh/",
       "services": [
         "Design",
-        "Web",
-        "Photography"
+        "Web"
       ]
     }
   },
   {
     "id": 4,
-    "title": "Floating Card",
-    "slug": "floating-card",
-    "category": "Design",
+    "title": "Weather App React",
+    "slug": "weather-app-react",
+    "category": "SheCodes",
     "thumb": "portfolio-4.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "React Development course to create a weather application to access current weather data for any location including over 200,000 cities. Simple application for users to view current weather in the cities the user searches for. Built SheCodes Plus project in React framework using Javascript, React, Node, HTML/CSS, Netlify.",
     "previewImages": [
       "portfolio-4.jpg",
-      "portfolio-2.jpg",
-      "portfolio-3.jpg"
+      "portfolio-4-2.jpg"
     ],
     "meta": {
-      "client": "Jowel Jerry",
-      "date": "01/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "SheCodes Workshops",
+      "date": "March 2022",
+      "website": "https://optimistic-swartz-97ba1f.netlify.app/",
       "services": [
         "Branding",
-        "Web",
-        "Photography"
+        "Web"
       ]
     }
   },
   {
     "id": 5,
-    "title": "Minimau Typeface",
-    "slug": "minimau-typeface",
-    "category": "Website",
+    "title": "Weather App",
+    "slug": "weather-app",
+    "category": "SheCodes",
     "thumb": "portfolio-5.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Weather application with searching capability by city name. Weather tool for users to view current and forecasted weather in their exact location and cities the user searches for. Built with Javascript, HTML, and CSS. Open-sourced on GitHub and hosted on Netlify.",
     "previewImages": [
       "portfolio-5.jpg",
-      "portfolio-1.jpg"
+      "portfolio-5-2.jpg"
     ],
     "meta": {
-      "client": "Rashed Jerry",
-      "date": "01/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "SheCodes Workshops",
+      "date": "November 2020",
+      "website": "https://romantic-cori-2580fc.netlify.app/",
       "services": [
         "Branding",
-        "Web",
-        "Photography"
+        "Web"
       ]
     }
   },
@@ -118,13 +113,11 @@
     "id": 6,
     "title": "Oil Dog Paint",
     "slug": "oil-dog-paint",
-    "category": "Design",
+    "category": "SheCodes",
     "thumb": "portfolio-6.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-6.jpg",
-      "portfolio-2.jpg",
-      "portfolio-3.jpg"
+      "portfolio-6.jpg"
     ],
     "meta": {
       "client": "Tasnim Khatun",
@@ -145,8 +138,7 @@
     "thumb": "portfolio-7.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-7.jpg",
-      "portfolio-3.jpg"
+      "portfolio-7.jpg"
     ],
     "meta": {
       "client": "Hassan Al",
@@ -167,8 +159,7 @@
     "thumb": "portfolio-8.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-8.jpg",
-      "portfolio-4.jpg"
+      "portfolio-8.jpg"
     ],
     "meta": {
       "client": "Tasnim Khatun",
@@ -189,8 +180,7 @@
     "thumb": "portfolio-9.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-9.jpg",
-      "portfolio-6.jpg"
+      "portfolio-9.jpg"
     ],
     "meta": {
       "client": "John Doe",
@@ -211,8 +201,7 @@
     "thumb": "portfolio-10.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-10.jpg",
-      "portfolio-4.jpg"
+      "portfolio-10.jpg"
     ],
     "meta": {
       "client": "Nasnim Shatun",
@@ -233,8 +222,7 @@
     "thumb": "portfolio-11.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-11.jpg",
-      "portfolio-4.jpg"
+      "portfolio-11.jpg"
     ],
     "meta": {
       "client": "Khatun Bibi",
@@ -255,8 +243,7 @@
     "thumb": "portfolio-12.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-12.jpg",
-      "portfolio-4.jpg"
+      "portfolio-12.jpg"
     ],
     "meta": {
       "client": "Angel Sokina",
@@ -277,8 +264,7 @@
     "thumb": "portfolio-13.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-13.jpg",
-      "portfolio-4.jpg"
+      "portfolio-13.jpg"
     ],
     "meta": {
       "client": "Alex Tuntuni",
@@ -298,8 +284,7 @@
     "thumb": "portfolio-14.jpg",
     "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-14.jpg",
-      "portfolio-4.jpg"
+      "portfolio-14.jpg"
     ],
     "meta": {
       "client": "Jowel Mia",
@@ -319,8 +304,7 @@
     "thumb": "portfolio-15.jpg",
     "description": "Majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
     "previewImages": [
-      "portfolio-15.jpg",
-      "portfolio-4.jpg"
+      "portfolio-15.jpg"
     ],
     "meta": {
       "client": "Humaun Khepa",
