@@ -24,15 +24,15 @@ const FooterOne = ({next, prev}) => {
                         </div>
                     </div>
 
-                    <div className="footer-search col-lg-4 col-12 order-lg-3 order-2 mb-sm-15 mb-xs-15">
+                    {/* <div className="footer-search col-lg-4 col-12 order-lg-3 order-2 mb-sm-15 mb-xs-15">
                         <form action="#">
                             <input type="text" placeholder="SEARCH NOW"/>
                             <button><i className="fa fa-search"/></button>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 };
 
